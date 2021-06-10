@@ -33,3 +33,21 @@ As these models took hours to train, our approach was to start with a relatively
 ## Results
 
 // TODO
+
+## Google Colab Notebooks
+
+[ResNet 18](https://colab.research.google.com/drive/18vP0-6dcLXze9VGNS6pTGcW3ZJIux6FQ?usp=sharing)
+
+[ResNet 50](https://colab.research.google.com/drive/13eX8QM6MuxEXXn8FQTLQcfumRopswTni?usp=sharing)
+
+[ResNet 152](https://colab.research.google.com/drive/1q1buEiXvxgRqeBKwVrtbR2FCnOFZPwp0?usp=sharing)
+
+## References
+
+[CSE 455 Tutorial 3](https://colab.research.google.com/drive/1EBz4feoaUvz-o_yeMI27LEQBkvrXNc_4#scrollTo=X7IHgrsqd-W0)
+
+[Cse 455 Tutorial 4](https://colab.research.google.com/drive/1kHo8VT-onDxbtS3FM77VImG35h_K_Lav#scrollTo=yRzPDiVzsyGz)
+
+[ResNet](https://pytorch.org/hub/pytorch_vision_resnet/)
+
+[Training a Classifier](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
