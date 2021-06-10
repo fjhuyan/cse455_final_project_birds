@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## Bird Kaggle Competition for CSE 455
 
-You can use the [editor on GitHub](https://github.com/fjhuyan/cse455_final_project_birds/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This website describes our process for testing different resnet architectures on the birds kaggle competition from https://www.kaggle.com/c/birds21sp. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Group: Akshit Arora, Braxton Kinney, Frederick Huyan, Leo Liao, Nikolai Scheel
 
-### Markdown
+## Problem Statement
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We wanted to build a neural network that could classify 555 different species of birds. 
 
-```markdown
-Syntax highlighted code block
+## Data
 
-# Header 1
-## Header 2
-### Header 3
+Our training data consisted of 38562 high resolution images split between the 555 different species of birds to identify, and 10000 images in the test dataset.  
 
-- Bulleted
-- List
+## Methodology
 
-1. Numbered
-2. List
+To tackle this problem, we used transfer learning with ResNet using different ResNet architectures including ResNet18, ResNet50, and ResNet152 to see how each one compared to one another. We used the built in ResNet architecture in torchvision and hosted our model on Google Colab. 
 
-**Bold** and _Italic_ and `Code` text
+We split off 1000 samples from the training set to use as a validation set to check for overfitting. 
 
-[Link](url) and ![Image](src)
-```
+As these models took hours to train, our approach was to start with a relatively large learning rate (0.01) and decrease it once it looked like the validation accuracy started to plateau, indicating overfitting. We did not want to keep training when the validation accuracy plateaus despite the training loss still decreases because then we would be overfitting on the trianing set, giving us worse results on the test set. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fjhuyan/cse455_final_project_birds/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Results
