@@ -8,7 +8,11 @@ Group: Akshit Arora, Braxton Kinney, Frederick Huyan, Leo Liao, Nikolai Scheel
 
 Before actually training models for the Kaggle competition, we started with some basic experimentation on MNIST and CIFAR to help us understand neural networks. If you would like to directly read what we did for the Kaggle competition, [skip to the "Problem Statement" section below](#Problem-Statement)
 
-// TODO
+[Click here to view the video detailing these experiments.](https://drive.google.com/file/d/1ejyFTdBus_HcdmKOVBltC2XFb7Lr0fPX/view?usp=sharing)
+
+[Click here to view the slideshow detailing this information.](https://docs.google.com/presentation/d/1N51GK0HlqaiIMy8HTi-qnWjPuc3_tfQDKLEJMtLP91U/edit?usp=sharing)
+
+[Click here to view the raw experiment data in spreadsheet form.](https://docs.google.com/spreadsheets/d/1_hWArK0Wu42o0rZcaaQJxyeBj_8Es8VpY7yecR936ag/edit?usp=sharing)
 
 ## Problem Statement
 
