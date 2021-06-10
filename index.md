@@ -4,9 +4,15 @@ This website describes our process for testing different resnet architectures on
 
 Group: Akshit Arora, Braxton Kinney, Frederick Huyan, Leo Liao, Nikolai Scheel
 
+## Simple Experiments
+
+Before actually training models for the Kaggle competition, we started with some basic experimentation on MNIST and CIFAR to help us understand neural networks. If you would like to directly read what we did for the Kaggle competition, [skip to the "Problem Statement" section below](#Problem-Statement)
+
 ## Problem Statement
 
 We wanted to build a neural network that could classify 555 different species of birds. 
+
+// TODO
 
 ## Data
 
@@ -21,3 +27,5 @@ We split off 1000 samples from the training set to use as a validation set to ch
 As these models took hours to train, our approach was to start with a relatively large learning rate (0.01) and decrease it once it looked like the validation accuracy started to plateau, indicating overfitting. We did not want to keep training when the validation accuracy plateaus despite the training loss still decreases because then we would be overfitting on the trianing set, giving us worse results on the test set. 
 
 ## Results
+
+// TODO
