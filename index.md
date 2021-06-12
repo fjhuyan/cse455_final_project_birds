@@ -4,6 +4,8 @@ This website describes our process for testing different resnet architectures on
 
 Group: Akshit Arora, Braxton Kinney, Frederick Huyan, Leo Liao, Nikolai Scheel
 
+For the video project explanation, [click here](https://drive.google.com/file/d/1jbVxttSRtALSgXeP8SEECBCyfPE1Yscu/view?usp=sharing)
+
 ## Simple Experiments
 
 Before actually training models for the Kaggle competition, we started with some basic experimentation on MNIST and CIFAR to help us understand neural networks. If you would like to directly read what we did for the Kaggle competition, [skip to the "Problem Statement" section below](#Problem-Statement)
